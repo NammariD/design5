@@ -6,4 +6,7 @@ import Input from '@mui/joy/Input';
 export default function ButtonUsage() {
   return <Button variant="solid">Hello world</Button>;
 }
-<Input placeholder="Type in here…" />
+
+export default function BasicInput() {
+  return <Input placeholder="Type in here…" />;
+}
