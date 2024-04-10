@@ -8,7 +8,7 @@ import Typography from '@mui/joy/Typography';
 import Home from '@mui/icons-material/Home';
 
 
-export default function ButtonUsage() {
+export default function SizesList() {
    return (
     <Box
       sx={{
