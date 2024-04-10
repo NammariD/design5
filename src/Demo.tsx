@@ -11,6 +11,8 @@ export default function SignInSheet() {
     <Card sx ={{ width: 300, height: 300 }}>
       <div>
         <Typography level="title-lg">Welcome to BoardX!</Typography>
+        <SignInInfo />
+        
       </div>
     
   
