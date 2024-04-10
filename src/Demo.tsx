@@ -36,7 +36,7 @@ export default function SizesList() {
             <ListItem>
               <ListItemButton>
                 <ListItemDecorator>
-                  <Home />
+                  
                 </ListItemDecorator>
                 Home
               </ListItemButton>
