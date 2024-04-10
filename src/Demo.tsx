@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Card from '@mui/joy/Card';
 import Typography from '@mui/joy/Typography';
-import SignInInfo from './components/Email';
+import Email from './components/Email';
+import Password from './components/Password';
 
 
 
@@ -12,6 +13,7 @@ export default function SignInSheet() {
       <div>
         <Typography level="title-lg">Welcome to BoardX!</Typography>
         <Email />
+        <Password />
         
       </div>
     
