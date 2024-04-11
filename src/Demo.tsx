@@ -5,6 +5,7 @@ import Email from './components/Email';
 import Password from './components/Password';
 import AspectRatio from '@mui/joy/AspectRatio';
 import LogInButton from './components/LogInButton';
+import ForgotPassword from './components/ForgotPassword';
 
 
 
@@ -21,6 +22,7 @@ export default function SignInSheet() {
           <Email/>
           <Password/>
           <LogInButton/>
+          <ForgotPassword/>
             
           
         </div>
