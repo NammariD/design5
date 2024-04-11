@@ -4,7 +4,8 @@ import Typography from '@mui/joy/Typography';
 import Email from './components/Email';
 import Password from './components/Password';
 import AspectRatio from '@mui/joy/AspectRatio';
-import Button from '@mui/joy/Button';
+import LogInButton from '@mui/joy/LogInButton';
+
 
 
 
@@ -18,7 +19,7 @@ export default function SignInSheet() {
         <Typography level="title-lg">Welcome to BoardX!</Typography>
         <Email />
         <Password />
-        <Button />
+        <LogInButton />
         
       </div>
     
