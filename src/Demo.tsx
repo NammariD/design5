@@ -14,7 +14,7 @@ import LogInButton from './components/LogInButton';
 
 export default function SignInSheet() {
   return ( 
-   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15' }}>
+   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15px' }}>
       <Card sx={{ width: 550, height: 406 }}>
         <div>
           <Typography level="title-lg">Welcome to BoardX!</Typography>
