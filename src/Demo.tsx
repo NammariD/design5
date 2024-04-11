@@ -13,11 +13,11 @@ export default function SignInSheet() {
       <Card sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px', backgroundColor: '#1E1E1E'}}>
         <div style={{ width: '100%', textAlign: 'center' }}>
           <Typography>Welcome to BoardX!</Typography>
-          <div style={{ margin: '20px 0' }}>
-            <Email style={{ color: '#0B0D0E' }} />
+          <div style={{ margin: '20px 0', color: '#0B0D0E' }}>
+            <Email />
           </div>
-          <div style={{ margin: '20px 0' }}>
-            <Password style={{ color: '#0B0D0E' }} />
+          <div style={{ margin: '20px 0', color: '#0B0D0E' }}>
+            <Password />
           </div>
           <div style={{ margin: '20px 0' }}>
             <LogInButton />
