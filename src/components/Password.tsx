@@ -3,7 +3,6 @@ import Input from '@mui/joy/Input';
 
 export default function InfoBar() {
   return (
-    <Input sx = {{ backgroundColor: '0B0D0E'}} placeholder="Password"  > </Input>
+    <Input sx={{ backgroundColor: '#0B0D0E' }} placeholder="Password" />
   );
 }
-
