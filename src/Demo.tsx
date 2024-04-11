@@ -12,6 +12,7 @@ export default function SignInSheet() {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15px', backgroundColor: '#121212' }}>
       <Card sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px', backgroundColor: '#121212'}}>
         <div style={{ width: '100%', textAlign: 'center' }}>
+          <img src = ""
           <Typography>Welcome to BoardX!</Typography>
           <div style={{ margin: '20px 0' }}>
             <Email />
