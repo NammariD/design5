@@ -18,9 +18,9 @@ export default function SignInSheet() {
       <Card sx={{ width: 550, height: 406 }}>
         <div>
           <Typography level="title-lg">Welcome to BoardX!</Typography>
-          <Email sx = {{alignSelf: 'center'}}/>
-          <Password sx = {{alignSelf: 'center'}}/>
-          <LogInButton sx = {{alignSelf: 'center'}}/>
+          <Email/>
+          <Password/>
+          <LogInButton/>
             
           
         </div>
