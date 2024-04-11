@@ -7,29 +7,18 @@ import AspectRatio from '@mui/joy/AspectRatio';
 import LogInButton from './components/LogInButton';
 import ForgotPassword from './components/ForgotPassword';
 
-
-
-
-
-
-
 export default function SignInSheet() {
   return ( 
-   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15px' }}>
-      <Card sx={{ width: 550, height: 406 }}>
-        <div>
-          <Typography level="title-lg">Welcome to BoardX!</Typography>
-          <Email/>
-          <Password/>
-          <LogInButton/>
-          <ForgotPassword/>
-            
-          
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15px' }}>
+      <Card sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ width: '100%', textAlign: 'center' }}>
+          <Typography variant="h4" gutterBottom>Welcome to BoardX!</Typography>
+          <Email />
+          <Password />
+          <LogInButton />
+          <ForgotPassword />
         </div>
       </Card>
     </div>
   );
 }
-    
-
-
