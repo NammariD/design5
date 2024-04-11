@@ -4,7 +4,7 @@ import Typography from '@mui/joy/Typography';
 import Email from './components/Email';
 import Password from './components/Password';
 import AspectRatio from '@mui/joy/AspectRatio';
-import LogInButton from '@mui/joy/LogInButton';
+import LogInButton from './components/LogInButton';
 
 
 
