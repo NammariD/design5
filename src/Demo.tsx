@@ -8,16 +8,22 @@ import LogInButton from './components/LogInButton';
 import ForgotPassword from './components/ForgotPassword';
 
 export default function SignInSheet() {
+  const inputStyle = { color: '#0B0D0E' }; // Define input styles
+
   return ( 
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '15px', backgroundColor: '#1E1E1E' }}>
       <Card sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px', backgroundColor: '#1E1E1E'}}>
         <div style={{ width: '100%', textAlign: 'center' }}>
           <Typography>Welcome to BoardX!</Typography>
-          <div style={{ margin: '20px 0', color: '#0B0D0E' }}>
-            <Email />
+          <div style={{ margin: '20px 0' }}>
+            <div style={inputStyle}>
+              <Email />
+            </div>
           </div>
-          <div style={{ margin: '20px 0', color: '#0B0D0E' }}>
-            <Password />
+          <div style={{ margin: '20px 0' }}>
+            <div style={inputStyle}>
+              <Password />
+            </div>
           </div>
           <div style={{ margin: '20px 0' }}>
             <LogInButton />
