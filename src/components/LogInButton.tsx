@@ -3,6 +3,6 @@ import Button from '@mui/joy/Button';
 
 export default function BasicButtons() {
   return (
-    <Button sx = {{ width: 550}} >Log In</Button>
+    <Button sx = {{ width: 550}} color = "primary" >Log In</Button>
     );
 }
