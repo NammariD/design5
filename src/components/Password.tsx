@@ -16,7 +16,7 @@ export default function InfoBar() {
             display: 'flex',
             alignItems: 'center', // Center vertically
             justifyContent: 'center', // Center horizontally
-            "--Button-gap": "-10px",
+           
           }}
         >
           <VisibilityIcon />
