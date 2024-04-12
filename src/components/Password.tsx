@@ -8,7 +8,9 @@ import Button from '@mui/joy/Button';
 
 export default function InfoBar() {
   return (
-    <Input type = "password" sx={{ backgroundColor: '#0B0D0E' }} placeholder="Password" endDecorator = { <Button size = "sm" endDecorator = {<VisibilityIcon/>}/>}
+    <Input type = "password" sx={{ backgroundColor: '#0B0D0E' }} placeholder="Password" endDecorator = { <Button  size = "sm" endDecorator = {<VisibilityIcon/>} sx={{
+    "--Button-gap": "-10px"
+  }} />}
       />
       );
 }
