@@ -10,7 +10,7 @@ import ForgotPassword from './components/ForgotPassword';
 export default function SignInSheet() {
   return ( 
     <div style={{ margin: 0, padding: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', backgroundColor: '#121212' }}>
-      <Card sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px', backgroundColor: '#121212'}}>
+      <Card variant = "plain" sx={{ width: 550, height: 406, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px', backgroundColor: '#121212'}}>
         <div style={{ width: '100%', textAlign: 'center' }}>
           <img src = 'boardxlogo.png' alt="BoardX Logo" />
 
