@@ -16,6 +16,7 @@ export default function InfoBar() {
             display: 'flex',
             alignItems: 'center', // Center vertically
             justifyContent: 'center', // Center horizontally
+            backgroundColor: '#0B0D0E'
            
           }}
         >
