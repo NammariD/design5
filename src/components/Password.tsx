@@ -11,6 +11,7 @@ export default function InfoBar() {
       placeholder="Password"
       endDecorator={
         <Button
+          color = "neutral"
           size="sm"
           sx={{
             display: 'flex',
