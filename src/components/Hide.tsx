@@ -1,18 +1,12 @@
 import * as React from 'react';
 import Button from '@mui/joy/Button';
-import SvgIcon from '@mui/joy/SvgIcon';
-import IconButton from '@mui/joy/IconButton';
+import Add from '@mui/icons-material/Add';
+import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
-
-export default function Hide() {
-  return(
-    <IconButton
-  sx={{
-    "--IconButton-size": "35px"
-  }}
->
-  <FavoriteBorder />
-</IconButton>
-    );
+export default function ButtonIcons() {
+  return (
+      <Button endDecorator={<KeyboardArrowRight />} color="success">
+        Go to checkout
+      </Button>
+  );
 }
-
