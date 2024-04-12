@@ -1,6 +1,6 @@
 import * as React from 'react'; 
 import Input from '@mui/joy/Input';
-import Hide from './components/Hide';
+
 
 export default function InfoBar() {
   return (
