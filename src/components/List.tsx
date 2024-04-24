@@ -3,6 +3,7 @@ import List from "@mui/joy/List";
 import ListItem from "@mui/joy/ListItem";
 import ListItemButton from "@mui/joy/ListItemButton";
 import Box from "@mui/joy/Box";
+import { Typography } from "@mui/joy";
 
 
 export default function NavBarList() {
@@ -16,7 +17,7 @@ export default function NavBarList() {
         backgroundColor: "#121212",
         padding: 0,
         margin: -1,
-        height: 703,
+        height: 703
       }}
     >
       <List
@@ -40,25 +41,13 @@ export default function NavBarList() {
           <ListItemButton sx = {{color:"white"}}>AI Agent</ListItemButton>
         </ListItem>
       </List>
-      <List
-        size="sm"
-        variant="plain"
-        orientation="vertical"
-        sx={{
-          maxWidth: 366,
-          top: 140,
-        }}
-      >
-        <ListItem>
-          <ListItemButton sx = {{color:"white"}}>3100 Org of Pl..</ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton sx = {{color:"white"}}>4240 AI/ML Spr.24</ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton sx = {{color:"white"}}>CSCI 450 (345)</ListItemButton>
-        </ListItem>
-      </List>
+        <div style = {{position: "absolute", top:350,}}>
+      <Typography sx = {{padding:"15px"}}>Organize your boards</Typography>
+      <Typography sx = {{padding:"15px"}}>Rooms are designated spaces for projects or groups. </Typography>
+      <Typography sx = {{padding:"15px"}}>Rooms can have their own members and permissions.</Typography>
+      <Typography sx = {{padding:"15px"}}>Click the “+” icon to create a room</Typography>
+        </div>
+     
     </Box>
   );
 }
