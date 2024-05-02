@@ -16,12 +16,10 @@ import NewBoard from "./components/NewBoard";
 
 export default function BoardXHome() {
   return (
-    <Box sx = {{height:"100px", backgroundColor:"blue", margin:0,}}>
+    <Box sx = {{height:"100px", backgroundColor:"#FFFFF", margin:0,}}>
       <NavbarCard />
       <NavBarList />
       <FeedBackButton />
-      <Typography variant="plain" level = "h2" sx = {{position:"absolute", top:100, left:450, color:"white"}}>All Boards</Typography>
-      < NewBoard />
     </Box>
   );
 }

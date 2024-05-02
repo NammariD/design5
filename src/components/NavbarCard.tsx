@@ -12,7 +12,7 @@ export default function MyApp() {
       <Sheet
         variant="plain"
         sx={{
-          backgroundColor: "#121212",
+          backgroundColor: "#white",
           height: "69px",
           margin: 0, // Remove any default margin
           padding: 0, // Remove any default padding
@@ -30,8 +30,8 @@ export default function MyApp() {
             left: "366px",
             width: "366px",
             top: "15px",
-            backgroundColor: "#121212",
-            color: "white",
+            backgroundColor: "white",
+            color: "black",
           }}
         >
           Search
@@ -40,7 +40,7 @@ export default function MyApp() {
       <Sheet
         variant="plain"
         sx={{
-          backgroundColor: "#0B0D0E",
+          backgroundColor: "#white",
           height: "69px",
           margin: 0, // Remove any default margin
           padding: 0, // Remove any default padding

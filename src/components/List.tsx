@@ -14,10 +14,10 @@ export default function NavBarList() {
         justifyContent: "center",
         flexWrap: "wrap",
         top: 36,
-        backgroundColor: "#121212",
+        backgroundColor: "#FFFFF",
         padding: 0,
         margin: -1,
-        height: 703
+        height: "100vh"
       }}
     >
       <List
@@ -29,16 +29,16 @@ export default function NavBarList() {
         }}
       >
         <ListItem>
-          <ListItemButton sx = {{color:"white"}}>All Boards</ListItemButton>
+          <ListItemButton sx = {{color:"black"}}>All Boards</ListItemButton>
         </ListItem>
         <ListItem>
-          <ListItemButton sx = {{color:"white"}}>Favorites</ListItemButton>
+          <ListItemButton sx = {{color:"black"}}>Favorites</ListItemButton>
         </ListItem>
         <ListItem>
-          <ListItemButton sx = {{color:"white"}}>AI Assistant</ListItemButton>
+          <ListItemButton sx = {{color:"black"}}>AI Assistant</ListItemButton>
         </ListItem>
         <ListItem>
-          <ListItemButton sx = {{color:"white"}}>AI Agent</ListItemButton>
+          <ListItemButton sx = {{color:"black"}}>AI Agent</ListItemButton>
         </ListItem>
       </List>
         <div style = {{position: "absolute", top:350,}}>
